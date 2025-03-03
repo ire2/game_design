@@ -1,16 +1,16 @@
 ---
-name:   Geometry Lab                # The application display name
-short:  Geometry                    # A shortened name for reference
+name:   Geometry CUGL Exploration              
+short:  Geometry                    
 appid:  edu.cornell.gdiac.code2     # Application identifier for Mac, iOS, Android
 suffix: GDBBC96B
 
-build:  build                       # The build directory (targets are each a subdirectory)
-assets: assets                      # The folder with the game assets (do not list asset)
+build:  build                       
+assets: assets                      
 icon:   icon.png
 
-orientation: landscape              # The orientation for mobile devices
+orientation: landscape              
 
-sources:                            # The list of the source code files
+sources:                            
     - source/*.cpp
     - source/*.h
 
@@ -18,9 +18,9 @@ modules:
     - physics2
     - scene2
 
-# This must be one of portrait, landscape, portrait-flipped, landscape-flipped,
-targets:                        # The target platforms to build for
-    - android                   # Android Studio
-    - apple                     # XCode (note macOS and iOS use one project)
-    - windows                   # Windows Sisual Studio
-    - cmake                     # This supports all Desktop platform
+
+targets:                       
+    - android                   
+    - apple                     
+    - windows                   
+    - cmake                     
